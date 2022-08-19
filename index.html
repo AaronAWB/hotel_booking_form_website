@@ -13,23 +13,24 @@
         <h3><em>Pittsburgh's Finest Luxery Destination</em></h3>
     </div>
     <form>
-        <div>
+        <div class="label">
             <label for="first_name">First Name:</label>
             <input type="text" name="first_name" id="first_name" required>
         </div>
-        <div>
+        <div class="label">
             <label for="last_name">Last Name:</label>
             <input type="text" name="last_name" id="last_name" required>
         </div>
-        <div>
+        <div class="label">
             <label for="email">Email:</label>
             <input type="email" name="email" id="email" required>
         </div>
-        <div>
+        <div class="label">
             <label for="address">Address:</label>
             <input type="text" name="address" id="address" required>
         </div>
-        <div>
+        <br></br>
+        <div class="select">
             <label for="rooms">Rooms:</label>
             <select name="rooms" id="rooms" required>
                 <option value="">Select Number of Rooms</option>
@@ -37,7 +38,7 @@
                 <option value="2">2</option>
             </select>
         </div>
-        <div>
+        <div class="select">
             <label for="adults">Adults:</label>
             <select name="adults" id="adults" required>
                 <option value="">Select Number of Adults</option>
@@ -47,7 +48,7 @@
                 <option value="4">4</option>
             </select>
         </div>
-        <div>
+        <div class="select">
             <label for="nights">Nights:</label>
             <select name="nights" id="nights" required>
                 <option value="">Select Number of Nights</option>
@@ -60,7 +61,8 @@
                 <option value="7">7</option>
             </select>
         </div>
-        <button type="submit">Confirm Reservation</button>
+        <br></br>
+        <button type="submit"><strong>Confirm Reservation</strong></button>
     </form>
 </body>
 </html>

@@ -5,18 +5,36 @@ body {
 
 .title {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 h1 {
     font-size: 50px;
-    color: #FECB58
+    color: #FECB58;
+    margin-bottom: 5px;
 }
 
 h3 {
     font-size: 20px;
-    color: #301E2C
+    color: #301E2C;
 }
 
 form {
     text-align: center;
+}
+
+.label {
+    display: inline;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.select {
+    display: inline;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    font-size: 15px;
 }
