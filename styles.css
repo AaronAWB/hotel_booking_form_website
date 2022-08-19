@@ -1,0 +1,18 @@
+body {
+    background-image: url(images/pittsburgh.jpg);
+    background-size: cover;
+}
+
+.title {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: #FECB58
+}
+
+h3 {
+    font-size: 20px;
+    color: #301E2C
+}
